@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListFilters correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+}
+`;
+
+exports[`should render ExpenseListFilters with alt data correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+}
+`;
