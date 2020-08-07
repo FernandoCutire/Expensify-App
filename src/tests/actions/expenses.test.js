@@ -160,8 +160,7 @@ test('should setup set expense action object with data', () => {
 
 
 test('should fetch the expenses from firebase', (done) => {
-  const store = createMockStore(defaultAuthStatecls
-    );
+  const store = createMockStore(defaultAuthState);
   store.dispatch(startSetExpenses()).then(() => {
     const actions = store.getActions();
     expect(actions[0]).toEqual({
